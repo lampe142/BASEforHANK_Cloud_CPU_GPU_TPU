@@ -58,3 +58,5 @@ Manifest.toml
 # ---------------------------------------------------------------------------------------------
 
 .ipynb_checkpoints/
+.run_Reactant_test.ipynb.swp
+.run_Reactant_test.ipynb.swo
