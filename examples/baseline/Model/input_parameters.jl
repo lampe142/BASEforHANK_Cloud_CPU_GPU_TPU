@@ -394,9 +394,14 @@ Collect parameters for the numerical solution of the model in a `struct`.
     GHH::Bool = true
 
     # regular grid
-    nh::Int = 14
-    nk::Int = 60
-    nb::Int = 60
+    # nh::Int = 14
+    # nk::Int = 60
+    # nb::Int = 60
+
+    nh::Int = 20
+    nk::Int = 100
+    nb::Int = 100
+
 
     # copula grid
     nh_copula::Int = 5 # rule of thumb: divide nh, without entrepreneur, by two
